@@ -1,2 +1,4 @@
 @echo off
-powershell.exe -ExecutionPolicy Unrestricted %~dp0\release.ps1 %1
+echo ---
+echo default_process_types:
+echo   web: 'exit 1'
